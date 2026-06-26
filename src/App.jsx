@@ -510,7 +510,7 @@ export default function App() {
                     </td>
                   </tr>
                   <tr>
-                    <td className="py-4 text-nexus-text font-medium">Real-time Change Data Capture (CDC) CDC queues</td>
+                    <td className="py-4 text-nexus-text font-medium">Real-time Change Data Capture (CDC) queues</td>
                     <td className="py-4 text-center">
                       <span className="text-nexus-accent font-bold">✓</span>
                     </td>
