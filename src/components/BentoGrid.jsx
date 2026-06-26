@@ -89,7 +89,7 @@ export default function BentoGrid() {
 
   const handleAccordionToggle = (index) => {
     // If clicking the already open panel, keep it open (exclusive accordion) or toggle
-    setActiveIdx(index);
+    setActiveIdx(prev => prev === index ? null : index);
   };
 
   return (
